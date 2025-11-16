@@ -163,9 +163,24 @@ CONFIG = {
 ## الاختبار
 
 ```bash
+# تثبيت متطلبات التطوير
+pip install -r requirements-dev.txt
+
 # تشغيل الاختبارات
 python -m pytest tests/
+
+# تشغيل مع تغطية الكود
+pytest tests/ --cov=. --cov-report=html
 ```
+
+## CI/CD
+
+يحتوي المشروع على ملف GitHub Actions workflow في `.github/workflows/ci.yml` للاختبارات التلقائية.
+
+**ملاحظة**: إذا واجهت مشكلة في رفع ملف workflow، يمكنك إضافته يدوياً من واجهة GitHub:
+1. اذهب إلى المستودع → Actions
+2. اختر "New workflow"
+3. انسخ محتوى `.github/workflows/ci.yml`
 
 ## المساهمة
 

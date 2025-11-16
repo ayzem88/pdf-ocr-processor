@@ -48,6 +48,7 @@ output/
 *.png
 *.txt
 !stopwords.txt
+!requirements-dev.txt
 
 # Test files
 .pytest_cache/
