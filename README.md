@@ -6,6 +6,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![GitHub](https://img.shields.io/github/stars/ayzem88/pdf-ocr-processor?style=social)
 
 </div>
 
@@ -156,4 +157,21 @@ CONFIG = {
 - [ ] تحسين خوارزميات معالجة الصور
 - [ ] دعم المزيد من صيغ الملفات
 - [ ] معالجة أسرع وأكثر كفاءة
+- [ ] دعم Windows
+- [ ] واجهة سطر الأوامر (CLI) محسّنة
+
+## الاختبار
+
+```bash
+# تشغيل الاختبارات
+python -m pytest tests/
+```
+
+## المساهمة
+
+نرحب بمساهماتكم! راجع [دليل المساهمة](CONTRIBUTING.md) للتفاصيل.
+
+## سجل التغييرات
+
+راجع [CHANGELOG.md](CHANGELOG.md) لمعرفة التغييرات في كل إصدار.
 

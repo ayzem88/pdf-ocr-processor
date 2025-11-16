@@ -43,4 +43,19 @@ Thumbs.db
 *.pdf
 temp/
 output/
+*_temp/
+._chunk_*.pdf
+*.png
+*.txt
+!stopwords.txt
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Documentation
+docs/_build/
 
